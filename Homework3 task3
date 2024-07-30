@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const Year = prompt("Введіть рік");
+        let days = new Year().getFullYear();
+        let daysInYear = days.getDays();
+
+        if (year && daysInYear == 366) {
+            alert("it is leap year")
+        }
+        else if (year && daysInYear < 366) {
+            alert("It is not leap Year")
+        } else {
+            alert("Введіть інший рік")
+        } 
+    </script>
+
+</body>
+
+</html>
